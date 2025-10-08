@@ -53,10 +53,11 @@ Not cryptographically secure. Use for educational purposes only.
 ```sh
 # Encode a secret message
 ./lsb_steg -e image.bmp secret_file steged_image.bmp
-```
-# Decode the hidden message
-./lsb_steg -d steged_image.bmp decoded_secret_file
 
+# Decode the hidden message
+
+./lsb_steg -d steged_image.bmp decoded_secret_file
+```
 ## License
 Open-source project
 ## Contributions
